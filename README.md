@@ -14,5 +14,4 @@ alias ll='ls - lG'
 source <(kubectl completion bash)
 echo "source <(kubectl completion bash)" >> ~/.bashrc
 complete -F __start_kubectl k
-alias ns='kubectl config set-context --current --namespace='
 ```
