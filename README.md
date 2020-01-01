@@ -10,7 +10,7 @@ alias h='history | grep'
 alias g='git'
 alias gcommit='g commit -m'
 set -o vi
-alias ll='ls - lG'
+alias ll='ls -lG'
 source <(kubectl completion bash)
 echo "source <(kubectl completion bash)" >> ~/.bashrc
 complete -F __start_kubectl k
